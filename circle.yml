@@ -1,6 +1,3 @@
-general:
-  artifacts:
-    - /home/ubuntu/podam/target/
 test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
